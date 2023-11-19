@@ -1,0 +1,439 @@
+/* Global styles */
+body {
+    font-family: 'Lato', sans-serif; /* Applying Lato as the default font for the body */
+}
+
+/* Wrapper around the content */
+body .wrapper {
+    max-width: 1200px;
+    padding: 1.5rem;
+    margin: auto; /* Center aligns the content */
+}
+
+/* Header styles */
+header {
+    background-color: #EC0C8C; /* Background color for the header */
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between; /* Space between navigation items */
+    align-items: center;
+    background-color: #EC0C8C; /* Background color for the navigation */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Vertically align items */
+}
+
+.logo-container img {
+    margin-right: 10px; /* Spacing between logo and title */
+}
+
+.title {
+    font-size: 2rem; 
+    margin-left: 10px;
+    color: #ffffff; /* Title color */
+    font-family: 'Cookie', cursive; /* Custom font for the title */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none; /* Removes bullet points from the list */
+}
+
+nav ul li {
+    padding: 1rem; /* Spacing around navigation items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: #ffffff; /* Navigation item color */
+    font-weight: bold;
+    font-size: 25px; /* Font size for navigation items */
+    font-family: 'Cookie', cursive; /* Custom font for navigation items */
+}
+
+/* Introduction section */
+.intro {
+    background-image: url(../images/header-image.jpg); /* Background image for the intro section */
+    background-repeat: cover;
+    background-size: 100% 100%; /* Adjusting background size */
+    color: white; 
+    padding-top: 5rem; 
+    padding-bottom: 5rem; /
+}
+
+.content-intro {
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem; 
+    line-height: 150%; 
+    font-weight: bold;
+    font-family: 'Cookie', cursive; /* Custom font for the heading */
+}
+
+.intro p {
+    line-height: 1.5rem; 
+    font-size: 0.9rem; 
+}
+
+.intro .btn {
+    /* Styling for the button in the intro section */
+    display: inline-block;
+    background: #FFC417; 
+    color: #fff; 
+    padding: 8px 30px; /* Padding for the button */
+    margin: 30px 0; /* Margin around the button */
+    border-radius: 30px; 
+    text-decoration: none; 
+}
+
+
+/* Three pictures on intro */
+.picture-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-top: 30px; 
+}
+
+.picture-column {
+    width: 28%; 
+    padding: 15px; 
+}
+
+.picture-column img {
+    transition: transform 0.5s ease; 
+}
+
+.picture-column img:hover {
+    transform: scale(1.1); 
+}
+
+/* Featured cakes section */
+.featured-cakes {
+    text-align: center; 
+}
+
+.featured-cakes h1 {
+    font-size: 24px; 
+    margin-bottom: 20px; 
+}
+
+.featured-container {
+    display: flex;
+    justify-content: center; /* Center-aligns items horizontally */
+    margin-bottom: 30px; /* Margin at the bottom of the container */
+}
+
+.feature {
+    border: 1px solid #FFC417; /* Border for each feature */
+    border-radius: 8px; 
+    padding: 20px; 
+    margin-right: 20px; 
+}
+
+.feature img {
+    width: 100%; /* Image width set to 100% */
+}
+
+/* Circle and arrows */
+.circ-arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.circle-container {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    /* Styling for the circle */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Width of the circle */
+    height: 50px; /* Height of the circle */
+    background-color: #ffffff; 
+    border: 2px solid #EC0C8C; 
+    border-radius: 50%; /* Border radius to make it a circle */
+    margin: 0 20px; /* Margin around the circle */
+    margin-top: 20px; 
+}
+
+.label {
+    font-size: 14px; /* Font size of the label */
+    margin-top: 110px; 
+    align-items: flex-start;
+    font-family: 'Cookie', cursive; /* Custom font for the label */
+}
+
+.arrow {
+    /* Styling for the arrow */
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent; 
+    border-bottom: 15px solid transparent; 
+    border-left: 15px solid #EC0C8C; 
+    border-right: 15px solid transparent; 
+    display: inline-block; 
+    margin: 0 10px; 
+    margin-top: 20px; 
+}
+
+/* Footer section */
+.footer {
+    /* Styling for the footer */
+    background-color: #EC0C8C; 
+    padding: 30px 0; 
+    text-align: center; /* Center-aligns the content */
+    font-family: Lato, sans-serif; 
+}
+
+/* Container within footer */
+.container {
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; 
+    padding: 0 15px; 
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap within the row */
+    justify-content: space-between; /* Space between items */
+}
+
+.footer-col {
+    flex: 1; 
+    text-align: left; /* Aligns text to the left */
+}
+
+/* Headings in footer */
+.footer-col h2 {
+    font-family: 'Cookie', cursive; 
+}
+
+.footer-col h1,
+.footer-col h2 {
+    color: #ffffff; 
+    margin-bottom: 10px; 
+}
+
+.footer-col p,
+.footer-col ul {
+    margin: 0; 
+    color: #ffffff; 
+}
+
+.footer-col ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0; /* Removes padding */
+}
+
+.footer-col ul li {
+    margin-bottom: 5px; /* Margin at the bottom of list items */
+}
+
+.footer-col ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: #ffffff; /* Link color */
+}
+
+.footer-col ul li a:hover {
+    color: #FFC417; /* Link color on hover */
+}
+
+/* Copyright section */
+/* Styling for the copyright */
+.copyright {
+    font-size: 10px; 
+    text-align: right; 
+    padding-right: 25px; 
+    padding-top: 25px; 
+    color: #ffffff; 
+}
+
+/* Customize page */
+.flavor-select {
+    text-align: center; /* Center-aligns text */
+    margin-top: 30px; 
+}
+
+.flavor-container {
+    display: flex;
+    justify-content: center; /* Center-aligns items horizontally */
+    align-items: flex-start; /* Aligns items at the top */
+    margin-bottom: 30px; 
+}
+
+.flavor {
+    /* Styling for the flavor section */
+    border: 1px solid #FFC417; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin-right: 20px; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.price {
+    color: grey; 
+    font-size: 22px; 
+}
+
+.flavor button {
+    /* Styling for buttons in the flavor section */
+    border: none; 
+    outline: 0; 
+    background-color: #000; 
+    text-align: center; 
+    cursor: pointer; 
+    width: 100%; 
+    font-size: 18px; 
+    display: inline-block; 
+    background: #FFC417; 
+    color: #fff; 
+    padding: 8px 30px; 
+    margin: 30px 0; 
+    border-radius: 30px; 
+    transition: background-color 0.3s ease; 
+}
+
+/* Hover effect for flavor buttons */
+.flavor button:hover,
+.flavor button:focus {
+    background-color: #ffe868; /* Background color on hover/focus */
+}
+
+.total-price {
+    display: flex; 
+    justify-content: flex-end; /* Aligns content to the end */
+    padding-bottom: 15px; 
+    padding-right: 10px; 
+}
+
+/* Styling for highlighted sections */
+.highlighted-section {
+    /* Styling for highlighted sections */
+    background-color: #EC0C8C;
+    display: flex; 
+    justify-content: center; 
+}
+
+.highlighted-item {
+    /* Styling for highlighted items */
+    padding: 10px; 
+    color: #ffffff; 
+    margin-right: 50px; 
+    text-align: center; 
+    font-size: 20px; 
+}
+
+#customize {
+    /* Styling for the "customize" section */
+    background-color: #FFC417; 
+    padding-top: 25px; 
+    padding-bottom: 25px; 
+    padding-left: 60px; 
+    padding-right: 60px; 
+}
+
+#cart {
+    /* Styling for the "cart" section */
+    padding: 25px; 
+    padding-top: 25px; 
+    padding-bottom: 25px; 
+    padding-left: 60px; 
+    padding-right: 60px; 
+}
+
+/* Form section styling */
+/* Styling for the Contact Us section */
+.contact {
+    text-align: center; 
+    padding: 20px; 
+}
+
+.information form {
+    max-width: 400px; /* Maximum width of the form */
+    margin: 0 auto; /* Center-aligns the form */
+}
+
+.information-label {
+    /* Styling for form labels */
+    font-weight: bold; 
+    display: block; 
+    margin-top: 10px; 
+}
+
+input[type="text"],
+textarea {
+    /* Styling for text input and textarea */
+    width: calc(100% - 20px);
+    padding: 8px; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+}
+
+textarea.message-text {
+    /* Styling for the message textarea */
+    height: 150px; 
+    resize: vertical; 
+}
+
+.send-button {
+    /* Styling for the send button */
+    padding: 10px 20px; 
+    background-color: #FFC417; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    width: 100%; 
+    display: inline-block; /* Display as inline block */
+    margin: 30px 0; 
+    border-radius: 30px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.intro .btn,
+.flavor button,
+.send-button {
+    /* transition effect for all buttons */
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+/* Hover effect for buttons */
+.intro .btn:hover,
+.flavor button:hover,
+.send-button:hover {
+    background-color: #ffe868; /* Change background color on hover */
+}
+
+.intro .btn,
+.flavor button,
+.send-button {
+    /* Common transition effect for buttons */
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+/* Hover effect for buttons */
+.intro .btn:hover,
+.flavor button:hover,
+.send-button:hover {
+    background-color: #ffe868; /* Change background color on hover */
+}

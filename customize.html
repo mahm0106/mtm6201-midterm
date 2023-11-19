@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm-Cake-Shop</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f1cbb58131.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header role="banner">
+        <!-- Navigation bar -->
+        <nav role="navigation">
+            <!-- Logo and navigation links -->
+            <div class="logo-container">
+                <img src="images/cake-logo-(small).jpg" alt="logo image">
+                <h1 class="title">Sweet Delights</h1>
+            </div>
+            <ul>
+                <!-- Navigation links -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Circles indicating steps in cake customization -->
+    <div class="circ-arrows" role="navigation" aria-label="Cake Customization Steps">
+        <div class="circle-container" role="list">
+            <!-- Circles indicating steps -->
+            <div class="circle" role="listitem">
+                <span class="label">Base Flavor</span>
+            </div>
+            <span class="arrow" role="steps"></span>
+            <div class="circle" role="listitem">
+                <span class="label">Number of Layers</span>
+            </div>
+            <span class="arrow" role="steps"></span>
+            <div class="circle" role="listitem">
+                <span class="label">Icing</span>
+            </div>
+            <span class="arrow" role="steps"></span>
+            <div class="circle" role="listitem">
+                <span class="label">Toppings</span>
+            </div>
+            <span class="arrow" role="steps"></span>
+            <div class="circle" role="listitem">
+                <span class="label">Review and Add to Cart</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cake flavor selection section -->
+    <div class="flavor-select" role="region" aria-label="Cake Flavor Selection">
+        <div class="wrapper">
+            <div class="flavor-container">
+                <!-- Individual cake flavor options -->
+                <div class="flavor">
+                    <img src="images/chocolate base.jpg" alt="Chocolate base" style="width:100%">
+                    <h4>Chocolate</h4>
+                    <p class="price">$1</p>
+                    <p><button>Add</button></p>
+                </div>
+                <div class="flavor">
+                    <img src="images/vanilla base.jpg" alt="Vanilla base" style="width:100%">
+                    <h4>Vanilla</h4>
+                    <p class="price">$1</p>
+                    <p><button>Add</button></p>
+                </div>
+                <div class="flavor">
+                    <img src="images/lemon base.jpg" alt="Lemon base" style="width:100%">
+                    <h4>Lemon</h4>
+                    <p class="price">$1</p>
+                    <p><button>Add</button></p>
+                </div>
+                <div class="flavor">
+                    <img src="images/strawberry base.jpg" alt="Strawberry base" style="width:100%">
+                    <h4>Strawberry</h4>
+                    <p class="price">$1</p>
+                    <p><button>Add</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Total price display -->
+    <div class="wrapper">
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Total:</td>
+                    <td>$0</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <section class="highlighted-section">
+        <div class="highlighted-item" id="customize">Customize</div>
+        <div class="highlighted-item" id="cart">Cart</div>
+    </section>
+</body>
+</html>
