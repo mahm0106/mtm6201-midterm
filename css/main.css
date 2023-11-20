@@ -227,7 +227,7 @@ h1 {
 
 /* Container within footer */
 .container {
-    max-width: 1200px; /* Maximum width of the container */
+    max-width: 1200px; 
     margin: 0 auto; 
     padding: 0 15px; 
 }
