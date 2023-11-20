@@ -66,6 +66,8 @@ nav ul li a {
     padding-bottom: 5rem; /
 }
 
+
+
 .content-intro {
     background-color: rgba(0, 0, 0, 0.5); 
     width: 100%;
@@ -142,6 +144,29 @@ h1 {
 
 .feature img {
     width: 100%; /* Image width set to 100% */
+}
+
+.featured-cakes .feature {
+    transition: transform 0.3s ease; /* Adding a transition for smoother effect */
+}
+
+.featured-cakes .feature:hover {
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 /* Circle and arrows */
